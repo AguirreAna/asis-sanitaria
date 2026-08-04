@@ -1,0 +1,47 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #2b2b2b;
+        }
+        .navbar-brand-title { font-size: 1.3rem; line-height: 1.1; }
+        .navbar-brand-sub { font-size: .85rem; }
+
+        .hero {
+            background: linear-gradient(135deg, #e9f5f0 0%, #dceefb 100%);
+            border-radius: 1rem;
+            padding: 3.5rem 2.5rem;
+        }
+        .hero h1 { font-weight: 700; }
+
+        .icon-circle {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: #0d6efd15;
+            color: #0d6efd;
+            font-size: 1.5rem;
+        }
+
+        .feature-card {
+            border: none;
+            border-radius: .75rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,.06);
+            transition: transform .2s ease, box-shadow .2s ease;
+            height: 100%;
+        }
+        .feature-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0,0,0,.10);
+        }
+
+        .carousel-item img {
+            height: 420px;
+            object-fit: cover;
+        }
+
+        .btn-primary {
+            border-radius: 50rem;
+            padding: .5rem 1.5rem;
+        }
+
+        footer a { color: #6c757d; text-decoration: none; }
+        footer a:hover { color: #0d6efd; }
